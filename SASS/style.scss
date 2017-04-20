@@ -1,0 +1,19 @@
+﻿
+@import "mixins";
+
+.foo {
+    p {
+        font-size: 12px;
+    }
+    small {
+        font-size: 10px;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+.foo {
+    @include inline-block;
+}

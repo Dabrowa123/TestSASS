@@ -1,0 +1,14 @@
+.foo p {
+  font-size: 12px; }
+.foo small {
+  font-size: 10px; }
+  .foo small:hover {
+    color: blue; }
+
+.foo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+/*# sourceMappingURL=style.css.map */
